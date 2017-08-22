@@ -1,2 +1,3 @@
-# example-npm-circle
-Example project for setting up CoPilot with a NodeJS Project Built using Circle CI
+# Black Duck CoPilot NPM/Travis CI Example
+
+[![Travis CI](https://travis-ci.org/BlackDuckCoPilot/example-npm-travis.svg?branch=master)](https://travis-ci.org/BlackDuckCoPilot/example-npm-travis)
