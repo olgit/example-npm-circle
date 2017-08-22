@@ -3,3 +3,12 @@ jobs:
   build:
     docker:
       - image: circleci/node:6.11
+    steps:
+      - checkout
+      - run:
+          name: Install npm
+          command: npm install
+    test:
+      - run:
+          name: test
+          command: npm test
