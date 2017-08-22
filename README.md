@@ -1,3 +1,3 @@
-# Black Duck CoPilot NPM/Travis CI Example
+# Black Duck CoPilot NPM/Circle CI Example
 
-[![Travis CI](https://travis-ci.org/BlackDuckCoPilot/example-npm-travis.svg?branch=master)](https://travis-ci.org/BlackDuckCoPilot/example-npm-travis)
+[![CircleCI](https://circleci.com/gh/BlackDuckCoPilot/example-npm-circle.svg?style=svg)](https://circleci.com/gh/BlackDuckCoPilot/example-npm-circle)
