@@ -12,3 +12,4 @@ jobs:
       - run:
           name: test
           command: npm test
+      - run: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/circle/scripts/upload)
