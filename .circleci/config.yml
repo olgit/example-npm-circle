@@ -6,6 +6,11 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - run: sudo su -c 'echo "deb http://deb.debian.org/debian jessie-backports main" >> /etc/apt/sources.list'
+      - run: |
+        sudo rm -rf /var/lib/apt/lists/*
+        sudo apt-get update
+        sudo apt install -t jessie-backports  openjdk-8-jre-headless ca-certificates-java
       - run: npm install
       - deploy:
           command: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/circle2/scripts/upload)
